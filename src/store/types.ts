@@ -25,7 +25,6 @@ import { EmployeeList } from './employee/types';
 import { CurrentRosterState, CurrentShiftRoster, CurrentAvailabilityRoster, CurrentSolverState } from './roster/types';
 import { AlertList } from './alert/types';
 import { ShiftTemplateList } from './rotation/types';
-import { CurrentLoginState } from './auth/types';
 
 /**
  * ThunkCommand is a ThunkAction that has no result (it's typically something like
@@ -71,5 +70,4 @@ export interface AppState {
   readonly availabilityRoster: CurrentAvailabilityRoster;
   readonly solverState: CurrentSolverState;
   readonly alerts: AlertList;
-  readonly loginState: CurrentLoginState;
 }

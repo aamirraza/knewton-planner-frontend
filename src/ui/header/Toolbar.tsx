@@ -112,16 +112,6 @@ export class ToolbarComponent extends React.Component<Props, ToolbarState> {
             </Button>
           </a>
         </ToolbarItem>
-        <ToolbarItem>
-          <Button
-            aria-label="Sign Up"
-            variant={ButtonVariant.plain}
-            data-cy="Sign Up"
-            onClick={() => this.props.history.push('/signup')}
-          >
-            <CogIcon />
-          </Button>
-        </ToolbarItem>
       </ToolbarGroup>
     );
     const { tenantList, currentTenantId } = this.props;

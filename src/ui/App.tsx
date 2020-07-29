@@ -24,7 +24,7 @@ import Header from './header/Header';
 import Alerts from './Alerts';
 import {
   AdminPage, ShiftRosterPage, AvailabilityRosterPage, SkillsPage, SpotsPage, ContractsPage,
-  EmployeesPage, RotationPage, SignUpPage
+  EmployeesPage, RotationPage,
 } from './pages';
 import Navigation from './header/Navigation';
 
@@ -90,11 +90,6 @@ const App: React.FC = () => {
             path="/admin"
             exact
             component={AdminPage}
-          />
-          <Route
-            path="/signup"
-            exact
-            component={SignUpPage}
           />
         </Switch>
       </PageSection>

@@ -30,7 +30,6 @@ import contractReducer from './contract/reducers';
 import employeeReducer from './employee/reducers';
 import shiftTemplateReducer from './rotation/reducers';
 import alertReducer from './alert/reducers';
-import loginStateReducer from './auth/reducers';
 import {
   rosterStateReducer, shiftRosterViewReducer, availabilityRosterReducer,
   solverReducer,
@@ -65,7 +64,6 @@ export function configureStore(
     availabilityRoster: availabilityRosterReducer,
     solverState: solverReducer,
     alerts: alertReducer,
-    loginState: loginStateReducer,
   });
 
   /* if (process.env.NODE_ENV !== 'production' && module.hot) {

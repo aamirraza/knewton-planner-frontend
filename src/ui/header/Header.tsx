@@ -28,8 +28,8 @@ const Header: React.FC<{ onNavToggle: () => void} > = ({ onNavToggle }) => {
         <Brand src="/assets/images/optaPlannerLogo200px.png" alt="OptaPlanner Logo" />
       )}
       logoProps={{
-        href: 'https://www.optaplanner.org',
-        target: '_blank',
+        href: '/',
+        target: '_self',
         rel: 'noopener noreferrer',
       }}
       toolbar={<Toolbar />}

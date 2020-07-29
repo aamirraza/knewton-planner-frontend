@@ -22,9 +22,8 @@ import ShiftRosterPage from './shift/ShiftRosterPage';
 import AvailabilityRosterPage from './availability/AvailabilityRosterPage';
 import RotationPage from './rotation/RotationPage';
 import AdminPage from './admin/AdminPage';
-import SignUpPage from './login/SignUpPage';
 
 export {
   AdminPage, ShiftRosterPage, AvailabilityRosterPage, SkillsPage, SpotsPage, ContractsPage,
-  EmployeesPage, RotationPage, SignUpPage,
+  EmployeesPage, RotationPage,
 };
